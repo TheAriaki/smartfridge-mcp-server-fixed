@@ -10,7 +10,9 @@
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js",
+    "start:http": "SERVER_MODE=http node build/index.js",
     "dev": "tsx watch src/index.ts",
+    "dev:http": "SERVER_MODE=http tsx watch src/index.ts",
     "test": "jest",
     "lint": "eslint src --ext .ts",
     "format": "prettier --write src",
