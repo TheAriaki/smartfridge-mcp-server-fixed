@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": "test-item-1",
+      "name": "Test Milk",
+      "quantity": 2,
+      "unit": "liters",
+      "category": "dairy",
+      "expirationDate": "2025-01-15",
+      "addedDate": "2025-01-01T00:00:00.000Z",
+      "location": "Main Shelf",
+      "notes": "Organic whole milk"
+    },
+    {
+      "id": "test-item-2",
+      "name": "Test Bread",
+      "quantity": 1,
+      "unit": "loaf",
+      "category": "bakery",
+      "expirationDate": "2025-01-05",
+      "addedDate": "2025-01-01T00:00:00.000Z",
+      "location": "Bread Box",
+      "notes": "Whole wheat bread"
+    },
+    {
+      "id": "test-item-3",
+      "name": "Test Apples",
+      "quantity": 6,
+      "unit": "pieces",
+      "category": "fruits",
+      "expirationDate": "2025-01-20",
+      "addedDate": "2025-01-01T00:00:00.000Z",
+      "location": "Crisper Drawer",
+      "notes": "Organic Gala apples"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-01-01T00:00:00.000Z",
+    "totalItems": 3
+  }
+}
